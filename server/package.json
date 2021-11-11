@@ -30,10 +30,12 @@
     "graphql": "15.3.0",
     "pg": "^8.7.1",
     "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.4.0",
     "type-graphql": "^1.1.1"
   },
   "mikro-orm": {
     "useTsNode": true,
+    "tsConfigPath": "./tsconfig.mikro-orm.json",
     "configPaths": [
       "./src/mikro-orm.config.ts",
       "./dist/mikro-orm.config.js"
