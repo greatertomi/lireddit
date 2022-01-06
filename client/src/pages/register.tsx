@@ -1,6 +1,6 @@
 import React from "react";
 import { Form, Formik } from "formik";
-import { Box, Button } from "@chakra-ui/react";
+import { Box, Button } from "@chakra-ui/core";
 import Wrapper from "../components/Wrapper";
 import InputField from "../components/InputField";
 import { useMutation } from "urql";
@@ -50,7 +50,7 @@ const Register: React.FC<registerProps> = ({}) => {
             <Button
               mt={4}
               type="submit"
-              colorScheme="teal"
+              color="teal"
               isLoading={isSubmitting}
             >
               register
