@@ -10,7 +10,6 @@ const client = createClient({
   },
 });
 
-// stop: 02:40
 function MyApp({ Component, pageProps }) {
   return (
     <Provider value={client}>
